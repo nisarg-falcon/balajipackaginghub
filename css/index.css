@@ -1,0 +1,120 @@
+body #navigation .main-nav li a {
+  font-size: 12px !important;
+  font-weight: 500;
+  color: #974579;
+}
+
+body #navigation .main-nav li a:hover {
+  color: #ef801b;
+}
+
+body #navigation .main-nav .active a {
+  color: #ef801b !important;
+}
+
+body .section {
+  padding-bottom: 0 !important;
+}
+
+body .section .shop .shop-body .cta-btn {
+  border: 1px solid white;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.7rem;
+}
+
+body #product #product-tab .section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #product #product-tab .section-title .section-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #product #product-tab .section-title .section-txt button {
+  display: none;
+}
+
+body #product #product-tab .section-title .section-nav {
+  float: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body #product #product-tab .section-title .section-nav ul li a {
+  font-size: 1.2em !important;
+  font-weight: 500;
+}
+
+body #product #product-tab .section-title .section-nav ul li a:hover {
+  color: #ef801b !important;
+}
+
+body #product #product-tab .section-title .section-nav ul .active a {
+  color: #ef801b !important;
+}
+
+body #hot-deal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 !important;
+}
+
+body #hot-deal img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #hot-deal .deal {
+  position: absolute;
+  top: 40%;
+}
+
+body #hot-deal .deal .hot-deal {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+body #hot-deal .deal .hot-deal p b {
+  color: #ef801b;
+}
+
+body #hot-deal .deal .hot-deal a {
+  color: white;
+}
+
+body #newsletter {
+  font-size: 15px;
+}
+
+body #footer {
+  font-size: 15px;
+}
+/*# sourceMappingURL=index.css.map */

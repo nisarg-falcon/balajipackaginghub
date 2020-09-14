@@ -1,0 +1,108 @@
+body{
+    #navigation{
+        .main-nav{
+            li{
+                a{
+                    font-size: 12px !important;
+                    font-weight: 500;
+                    color: #974579;
+                    &:hover{
+                        color: #ef801b;
+                    }
+                }
+            }
+            .active {
+                a{
+                    color: #ef801b !important;
+                }
+            }
+        }
+    }
+    .section{
+        padding-bottom: 0 !important;
+        .shop{
+            .shop-body{
+                .cta-btn{
+                    border: 1px solid white;
+                    color: white;
+                    font-size: 1.2em;
+                    padding:  0.7rem;
+                }
+            }
+        }
+    }
+    #product{
+        #product-tab{
+            .section-title{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-between;
+                .section-txt{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    button{
+                        display: none;
+                    }
+                }
+                .section-nav{
+                    float: none;
+                    display: flex;
+                    justify-content: flex-end;
+                    ul{
+                        li{
+                            a{
+                                font-size: 1.2em !important;
+                                font-weight: 500;
+                                &:hover{
+                                    color: #ef801b !important;
+                                }
+                            }
+                        }
+                        .active{
+                            a{
+                                color: #ef801b !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    #hot-deal{
+        display: flex;
+        justify-content: center;
+        padding: 0 !important;
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+        .deal{
+            position: absolute;
+            top: 40%;
+            .hot-deal{
+                padding: 2rem;
+                background: rgba(255,255,255,0.5);
+                p{
+                    b{
+                        // color: lighten(black, 30%);
+                        color: #ef801b;
+                        // color: white;
+                    }
+                }
+                a{
+                    color: white;
+                }
+            }
+            // left: 22%;
+        }
+    }
+    #newsletter{
+        font-size: 15px;
+    }
+    #footer{
+        font-size: 15px;
+    }
+}
